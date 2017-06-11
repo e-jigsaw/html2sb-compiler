@@ -1,6 +1,6 @@
 {
   "name": "@jigsaw/html2sb-compiler",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "main": "./index.js",
   "repository": {
     "url": "ssh://git@github.com/pastak/html2sb-compiler.git",
