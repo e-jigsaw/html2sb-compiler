@@ -1,6 +1,6 @@
 {
-  "name": "html2sb-compiler",
-  "version": "1.0.3",
+  "name": "@jigsaw/html2sb-compiler",
+  "version": "1.0.4",
   "main": "./index.js",
   "repository": {
     "url": "ssh://git@github.com/pastak/html2sb-compiler.git",
@@ -12,7 +12,7 @@
     "test:unit": "./node_modules/.bin/tape test/*.js | ./node_modules/.bin/tap-difflet",
     "test:watch": "./node_modules/.bin/tape-watch test/*.js | ./node_modules/.bin/tap-difflet"
   },
-  "author": "pastak <pasta0915@gmail.com>",
+  "author": "jigsaw (http://jgs.me)",
   "license": "MIT",
   "dependencies": {
     "htmlparser2": "^3.9.2",
