@@ -176,13 +176,13 @@ var tags = {
     })
   },
   'a': function (context, node) {
-    var childData = parseNodes(node.children, {
+    var children = node.children ? parseNodes(node.children, {
       options: context.options
-    })
+    }).children : []
     context.children.push({
       type: 'text',
       href: node.attribs.href,
-      children: childData.children
+      children: children
     })
   },
   'note': function (context, node) {
